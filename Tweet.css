@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(21, 32, 43);
+}
+#firsec {
+    display: flex;
+    font-size:inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+/* h3{
+    padding-left: 180px;
+} */
+ul{
+    padding-left: 180px;
+    padding-top: 200px;
+}
+#firstnav {
+    width: 50%;
+    height: 585px;
+    background-image : url(saviour.png);
+    font-size: 18px;
+    margin: -8px;
+    color: antiquewhite;
+}
+#secondnav {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    line-height: 1.3125;
+    color: antiquewhite;
+    padding: 15px;
+    padding-top: 100px;
+    font-size: 20px;
+    padding-left: 70px;
+}
+#secondnav span {
+    display: block;
+}
+button {
+    width: 125%;
+    background-color: rgba(29,161,242,1.00);
+    color: azure;
+    padding: 9px 15px;
+    border-radius: 18px;
+}
+#butt2 {
+    color: rgba(29,161,242,1.00);
+    background-color:rgb(21, 32, 43);
+    border: solid rgba(29,161,242,1.00);
+}
+#butt2 :active{
+    opacity: .5;
+}
+.footid {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: rgb(136, 153, 166);
+}
+.footnav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footli{
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footnav li a {
+    color: rgb(136, 153, 166);
+}
+.footli :hover {
+    text-decoration: underline;
+}
